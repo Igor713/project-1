@@ -9,3 +9,14 @@
   justify-content: center;
   margin-top: 30px;
 }
+
+.container-not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-not-found .not-found {
+  font-size: 22px;
+}
