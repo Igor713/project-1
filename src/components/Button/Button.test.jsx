@@ -39,4 +39,9 @@ describe('<Button />', () => {
 
         expect(button).toBeEnabled();
     });
+
+    test('Should match snapshot', () => {
+        const { container } = render(<Button text="Carregar mais posts" disabled={false} />);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 });
