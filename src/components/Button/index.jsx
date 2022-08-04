@@ -3,7 +3,7 @@ import './styles.css';
 
 export const Button = ({ text, onClick, disabled }) => (
   <button
-    className='button'
+    className='button-pagination'
     onClick={onClick}
     disabled={disabled}
   >
@@ -18,5 +18,5 @@ Button.defaultProps = {
 Button.protoTypes = {
   text: P.string.isRequired,
   onClick: P.func.isRequired,
-  disabled: P.bool,
+  disabled: P.bool
 };

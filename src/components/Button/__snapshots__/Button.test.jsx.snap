@@ -2,7 +2,7 @@
 
 exports[`<Button /> Should match snapshot 1`] = `
 <button
-  class="button"
+  class="button-pagination"
 >
   Carregar mais posts
 </button>
