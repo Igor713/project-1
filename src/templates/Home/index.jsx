@@ -15,7 +15,7 @@ export const Home = () => {
 
   const noMorePosts = page + postsPerPage >= allPosts.length;
 
-  const filteredPosts = !!searchValue ?
+  const filteredPosts = searchValue ?
     allPosts.filter(post => {
       return post.title.toLowerCase().includes(
         searchValue.toLowerCase()
@@ -79,7 +79,7 @@ export const Home = () => {
       </div>
     </section>
   );
-}
+};
 
 // export class Home2 extends Component {
 //   state = {
