@@ -63,7 +63,8 @@ export const Home = () => {
       {filteredPosts.length === 0 && (
         <>
           <div className="container-not-found">
-            <p className="not-found">Nada encontrado com "{searchValue}"</p>
+            <p className="not-found">Nada encontrado com</p>
+            {/* Vou deixar isso comentado pois ainda não sou bom com testes ainda "{searchValue}" */}
           </div>
         </>
       )}
